@@ -84,6 +84,7 @@ ul.nav{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	
 }
 .banner h3{
 	font-size: 30px;
@@ -104,6 +105,8 @@ ul.nav{
 }
 .banner img{
 	margin: 50px;
+	max-width: 100%;
+    height: auto;
 }
 .banner button{
 	width: 190px;
@@ -388,6 +391,11 @@ ul.nav{
 	margin-top: 30px;
 	margin-bottom: 70px;
 }
+
+.contact h4{
+	color: #e6ffe6	;
+}
+
 .contact-form{
 	margin: 0;
 	padding: 0;
@@ -466,10 +474,19 @@ color:#EFEFEF;
 	background: #000;
 }
 .footer p{
-	color: #7e8287;
+	color: #ffffff;
 	font-size: 12px;
 	padding:25px;
 }
+
+.footer h2{
+	color: #e6ffe6;
+}
+
+.footer h4{
+	color: #e6ffe6;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #FFF;
 }
